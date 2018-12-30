@@ -127,6 +127,12 @@
         line-height: 25px;
         letter-spacing: 0.2rem;
     }
+    .about-section{
+      height: 100vh;
+    }
+    .about-section p{
+      font-size: 15px;
+    }
   }
   
   @media (min-width: 992px) {
@@ -143,6 +149,12 @@
         font-size: 50px;
         line-height: 50px;
         letter-spacing: 0.2rem;
+    }
+    .about-section{
+      height: 100vh;
+    }
+    .about-section p{
+      font-size: 20px;
     }
   }
   
@@ -163,14 +175,14 @@
   }
   
   .about-section {
-    padding-top: 5rem;
-    height: 600px;
+    padding-top: 2rem;
+    height: 100vh;
     background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
     background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
   }
   
   .about-section p {
-    font-size: 1em;
+    font-size: 20px;
   }
   
   .projects-section {
