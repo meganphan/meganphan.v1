@@ -128,7 +128,7 @@
         letter-spacing: 0.2rem;
     }
     .about-section{
-      height: 100vh;
+      height: 100%;
     }
     .about-section p{
       font-size: 10px;
@@ -151,7 +151,7 @@
         letter-spacing: 0.2rem;
     }
     .about-section{
-      height: 100vh;
+      height: 120%;
     }
     .about-section p{
       font-size: 20px;
@@ -175,8 +175,11 @@
   }
   
   .about-section {
-    padding-top: 2rem;
-    height: 100vh;
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 5rem 0;
     background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
     background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
   }
