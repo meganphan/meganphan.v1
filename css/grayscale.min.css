@@ -98,9 +98,9 @@
   
   .masthead h1 {
     font-family: 'Varela Round';
-    font-size: 4.5rem;
-    line-height: 4.5rem;
-    letter-spacing: 0.8rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    letter-spacing: 0.6rem;
     background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -108,9 +108,9 @@
 
   .masthead h2{
     font-family: 'Varela Round';
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    letter-spacing: 0.4rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.2rem;
     background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -120,27 +120,29 @@
     .masthead h1 {
       font-size: 50px;
       line-height: 50px;
+      letter-spacing: 0.6rem;
     }
     .masthead h2 {
         font-size: 25px;
         line-height: 25px;
+        letter-spacing: 0.2rem;
     }
   }
   
   @media (min-width: 992px) {
     .masthead {
       height: 100vh;
-      padding: 50px;
+      padding: 0;
     }
     .masthead h1 {
         font-size: 100px;
         line-height: 100px;
-        letter-spacing: 0.8rem;
+        letter-spacing: 0.6rem;
     }
     .masthead h2 {
         font-size: 50px;
         line-height: 50px;
-        letter-spacing: 0.4rem;
+        letter-spacing: 0.2rem;
     }
   }
   
